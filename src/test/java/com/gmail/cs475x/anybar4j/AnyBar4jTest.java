@@ -1,6 +1,6 @@
 package com.gmail.cs475x.anybar4j;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -25,6 +25,7 @@ public class AnyBar4jTest {
 			}
 		}
 
+		assertNotEquals(null, anybar);
 		assertEquals(null, exception);
 	}
 
@@ -43,8 +44,9 @@ public class AnyBar4jTest {
 			}
 		}
 
-		assertEquals(null, exception);
+		assertNotEquals(null, anybar);
 		assertEquals(AnyBar4j.DEFAULT_PORT, anybar.port);
+		assertEquals(null, exception);
 	}
 
 }
