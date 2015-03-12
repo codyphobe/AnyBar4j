@@ -42,3 +42,4 @@ public class AnyBar4jTest {
 	}
 
 }
+

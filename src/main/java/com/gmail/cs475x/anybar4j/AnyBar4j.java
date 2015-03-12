@@ -51,6 +51,8 @@ public class AnyBar4j {
 		OptionSet options = parser.parse(args);
 
 		if (options.has(optionHelp)) {
+			System.out.println("AnyBar4j v1.0.0");
+			System.out.println("Copyright (c) 2015 cs475x (Cody)\n");
 			parser.printHelpOn(System.out);
 
 			return;
@@ -159,3 +161,4 @@ public class AnyBar4j {
 	}
 
 }
+

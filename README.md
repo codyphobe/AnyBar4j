@@ -84,3 +84,4 @@ anybar = new AnyBar4j(AnyBar4j.DEFAULT_HOST, AnyBar4j.DEFAULT_PORT);
 // Same as
 anybar = new AnyBar4j();
 ```
+
