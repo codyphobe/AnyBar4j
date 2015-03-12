@@ -39,7 +39,8 @@ public class AnyBar4j {
 	 */
 	private DatagramSocket socket;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args)
+	throws IOException {
 		OptionParser parser = new OptionParser();
 
 		OptionSpec<Void> optionHelp = parser.acceptsAll(Arrays.asList("?", "help"), "Show the available command line flags with descriptions.");
